@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <a href="../index.html">REGRESAR A la pag principal</a>
+    <h1>FORMULARIOS -TIPO DE INPUT</h1>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" value="JUAN JOSE " name="nombre" id="nombre" class="inputs_class" readonly>
+    <br>
+    <label for="Contraseña">Contraseña:</label>
+    <input type="password" value="contraseña" class="inputs_class" disabled>
+    
+    <br>
+    <label for="Archivo">Escoja el archivo:</label>
+    <input type="file" class="inputs_class">
+    
+    <br>
+    <label for="Sexo">Sexo:</label>
+    Masculino:<input type="radio"name="sexo" value="M" id="hombre">
+    Femenino<input type="radio" name="sexo" value="F" id="mujer">
+    
+    <br>
+    <label for="Calificacion">Califique:</label>
+    <input type="range" min="0" max="5" step="1" value="2">
+    
+    <br>
+    <label for="Buscar">Buscar:</label>
+    <input type="search" placeholder="Escriba su busqueda">
+    
+    <br>
+    <label for="Telefono">Telefono:</label>
+    <input type="tel" name="telefono" id="telefono" maxlength="10" minlength="7">
+    
+    <br>
+    <label for="url">escriba aqui su URL:</label>
+    <input type="url">
+    
+    <br>
+    <label for="Descripcion">Descripcion</label>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+</body>
+</html>
