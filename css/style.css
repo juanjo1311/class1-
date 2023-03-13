@@ -5,3 +5,9 @@ body{
 img:hover{
     background-color: aqua;
 }
+/*estilo por etiqueta*/
+#nombre{
+    border: 1px solid blue;
+    border-radius: 3px ;
+    background-color: aqua;
+}
